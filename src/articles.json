@@ -1,36 +1,36 @@
 [
     {
-      "title": "Novo Podcast: Bolha Dev",
+      "title": "The Rise of Indie Game Developers",
       "text": [
-        "A nossa bolha ficou muito mais unida e informada essa semana, com o lançamento do podcast diário Bolha Dev!  Em todas as tardes de segunda a sexta-feira, Marcus Mendes apresenta as melhores notícias da Newsletter do Filipe Deschamps, além de trazer conteúdos e dicas interessantes do Aluraverso.",
-        "Confira o último episódio do Bolha Dev, em que o Marcus falou sobre a Anatel intensificando combate contra pirataria, reconhecimento facial por sonar, treinamento de drones no metaverso e muito mais!"
+        "In recent years, indie game developers have taken the gaming industry by storm. With creative freedom and a passion for storytelling, these developers are crafting unique experiences that rival big-budget titles. Games like Hollow Knight and Celeste have shown that it's not always about high-end graphics, but about heart and innovation. Many indie developers are using platforms like Steam and Itch.io to release their games, giving players a wider range of experiences. It's never been a better time to explore the indie scene!",
+        "Want to discover hidden indie gems? Start exploring today and support the next generation of gaming talent!"
       ],
-      "tags": ["podcast", "bolhadev"]
+      "tags": ["Game Development", "Indie"]
     },
     {
-      "title": "Monitoria diária no Discord",
+      "title": "Mastering Multiplayer Strategy in Online RPGs",
       "text": [
-        "Desde a semana passada, estamos experimentando uma nova rotina na comunidade do Discord, na escola de Programação! Todas as tardes, os alunos e alunas aproveitam uma Monitoria com duração de uma hora, por meio do canal de voz da comunidade. Além da solução de dúvidas sobre carreira e tecnologia, acontece muita interação entre pessoas de diferentes estágios de aprendizagem.",
-        "Na primeira semana da Monitoria, tivemos 135 participantes! Se você também quiser trocar uma ideia por lá, é só aparecer às 15h no canal Sala de Estudos 1, dentro de Back-end, no Discord."
+        "Multiplayer RPGs require not only individual skill but also a well-executed team strategy. Whether you're playing World of Warcraft, Final Fantasy XIV, or a co-op title like Divinity: Original Sin II, knowing your role within a team is key. Tank, DPS, healer—each has a specific duty that can make or break a raid or mission. Communication is crucial, so make sure your team is on the same page before diving into battle. Remember: A well-coordinated team is always stronger than a lone wolf!",
+        "Ready to level up your team play? Join your next raid with confidence and dominate the battlefield!"
       ],
-      "tags": ["discord", "monitoria"]
+      "tags": ["RPGs", "multiplayer"]
     },
     {
-      "title": "Começou o Challenge Back-End",
+      "title": " Esports Evolution: From Hobby to Professional Career",
       "text": [
-        "Começa hoje o Challenge Back-End, voltado para alunos e alunas da Alura que querem ter um projeto completo para adicionar ao portfólio e aumentar suas chances no mercado tech.",
-        "Serão quatro semanas para desenvolver uma API Rest de uma aplicação de controle financeiro, realizar validações de regras de negócio, implementar um relatório de informações e também um controle de acesso.",
-        "Ainda dá tempo de se inscrever e participar! Vem aprender colocando a mão na massa, sempre com o suporte do time Alura e da nossa comunidade no Discord."
+        " Esports has exploded over the past decade, evolving from a niche hobby into a billion-dollar industry. Games like League of Legends, Counter-Strike: Global Offensive, and Dota 2 now host massive tournaments with prize pools that can reach millions of dollars.",
+        "With growing sponsorships and dedicated esports arenas, many gamers are turning their passion into a full-fledged career. Whether you're a pro player, coach, or streamer, the world of esports continues to offer exciting opportunities for gaming enthusiasts.",
+        "Thinking of going pro? Start honing your skills today and be part of the next generation of esports champions!"
       ],
-      "tags": ["back-end", "node", "java"]
+      "tags": ["E-sports", "CS", "Dota"]
     },
     {
-      "title": "Como fazer um bom portfólio?",
+      "title": "The Future of Virtual Reality in Gaming",
       "text": [
-        "No último episódio do #HipstersPontoTube, Diogo Pires e Paulo Silveira conversaram sobre a importância do portfólio e quais são as dicas para criar essa ferramenta essencial para todos os níveis de profissionais. Eles também dão algumas dicas de carreira, respondendo perguntas como “quando é o momento certo de me aplicar nas vagas?”."
+        "Virtual reality (VR) has come a long way since its inception, and gaming is at the forefront of this revolution. Games like Half-Life: Alyx and Beat Saber have shown just how immersive VR can be, offering players a whole new way to experience their favorite genres. With advancements in VR hardware and more developers embracing the medium, the future looks bright for VR gaming. Whether you're exploring fantasy worlds or engaging in high-intensity action, VR promises to change how we game forever.”."
       ],
-      "image": "/example.jpeg",
-      "alt": "Screenshot do Youtube com o episódio do podcast rodando",
-      "tags": ["carreira", "podcast"]
+      "image": "./src/assets/images/vr-image.svg",
+      "alt": "An character using a VR",
+      "tags": ["VR", "Future"]
     }
   ]

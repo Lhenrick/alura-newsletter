@@ -1,5 +1,5 @@
-import  Input  from "../Input";
-
+import Input from "../Input";
+import coverImg from "../../images/reapers-cover.svg"
 const Form = ({ onSubmit }) => {
     const safeSubmit = event => {
         event.preventDefault()
@@ -9,11 +9,18 @@ const Form = ({ onSubmit }) => {
         onSubmit({ name, email })
     }
 
-    return <form onSubmit={safeSubmit} className="h-full flex flex-col items-center justify-center gap-10 -mt-20  mx-5">
-        <Input type="text" required placeholder="Insira seu nome..."/>
-        <Input type="email" required placeholder="Insira seu e-mail... "/>
-        <button type="submit" className=" py-1 px-5 w-full max-w-sm bg-alura-100 dark:bg-dark-200 rounded-full  dark:text-gray-200 uppercase outline-none hover:animate-pulse hover:shadow-md hover:shadow-gray-500 hover:dark:shadow-black">Seguir</button>
-    </form>
+    return (
+        <>
+            <figure className="flex justify-center h-3/6 ">
+                <img src={coverImg} alt="reaper's chronicle login cover image" className="border-4 rounded-xl shadow-xl shadow-fuchsia-600 hover:animate-pulse" />
+            </figure>
+            <form onSubmit={safeSubmit} className="h-full flex flex-col items-center justify-center gap-10 -mt-80  mx-5">
+                <Input type="text" required placeholder="Your name..." />
+                <Input type="email" required placeholder="Your email... " />
+                <button type="submit" className=" py-1 px-5 w-full max-w-sm bg-fuchsia-700 dark:bg-fuchsia-700 rounded-full text-gray-200 uppercase outline-none hover:animate-pulse hover:shadow-md hover:shadow-gray-500 hover:dark:shadow-black">Sign up</button>
+            </form>
+        </>
+    )
 }
 
 export default Form
